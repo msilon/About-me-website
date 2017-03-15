@@ -1,0 +1,336 @@
+$info-box-color: #ffa253
+$color-background: #F5F5F5
+$color-main: #FF5252
+$color-active: #FFF
+$color-link: #FFF
+
+$button-height: 27px
+$button-width: 35px
+
+* 
+	font-family: 'Work Sans', sans-serif
+
+.row
+	margin-right: 0
+	margin-left: 0
+	height: auto
+
+.jumbotron-round
+	position: absolute
+
+.jumbotron 
+	height: 100vh
+	background-color: #41bec5
+	color: white
+	display: -webkit-flex
+	display: flex
+	justify-content: center
+	align-items: center
+	padding: 0
+	margin-bottom: 0
+	position: relative
+
+[class*="section-"]
+	min-height: 600px
+
+.welcome-container
+	background-color: #5276cf
+	color: white
+	padding-top: 50px
+	padding-bottom: 50px
+
+[class*="col-"]
+	padding-left: 0
+	padding-right: 0
+	max-height: 600px
+
+.info-box__icon
+	font-size: 300px
+	color: white
+
+.welcome-container
+	padding-left: 15px
+	padding-right: 15px
+
+.welcome-container__box_icon
+	font-size: 50px
+	color: white
+
+.welcome-container__header
+	font-weight: 700
+	font-size: 50px
+	margin-top: 0
+
+[class*="info-box__container"]
+	padding-top: 30px
+	padding-left: 20px
+	padding-right: 20px
+	min-height: 600px
+
+[class*="info-box__containerIcon"]
+	min-height: 600px
+	display: flex
+	display: -webkit-flex
+	justify-content: center
+	align-items: center
+
+.info-box__containerIcon1
+	background-color: #FFC753
+
+.info-box__container_aboutMe
+	background-color: #FFE0A0
+
+[class*="info-box__header"]
+	font-weight: 700
+
+.info-box__header_aboutMe
+	margin-top: 30px
+	margin-bottom: 30px
+
+.info-box__header_aboutMe::after
+	content: ""
+	height: 2px
+	border: 1px solid black
+	display: table-cell
+	width: 185px
+	position: absolute
+	border-color: $info-box-color
+
+[class*="info-box__paragraph"]
+	font-size: 20px
+	margin-bottom: 0
+
+.info-box__containerIcon_technologies
+	background-color: #FFA253
+	margin-top: 0
+
+.info-box__container_technologies
+	background-color: #FFCCA0
+	text-align: center
+
+.info-box__header_technologies::after
+	content: ""
+	height: 2px
+	border: 1px solid black
+	display: table-cell
+	width: 260px
+	position: absolute
+	border-color: $info-box-color
+	left: 115px	
+
+[class*="info-box__icon_technologies"]
+	font-size: 70px
+	margin-left: 35px
+	margin-right: 35px
+	margin-top: 50px
+	display: inline-block
+	transition: 1s
+
+.info-box__icon_technologiesHTML5:hover
+	color: #e44d26
+	transition: 1s
+
+.info-box__icon_technologiesCSS3:hover
+	color: #016fba
+	transition: 1s
+
+.info-box__icon_technologiesJS:hover
+	color: #d6ba32
+	transition: 1s
+
+.info-box__icon_technologiesJQ:hover
+	color: #0868ab
+	transition: 1s
+
+.info-box__icon_technologiesSASS:hover
+	color: #cf649a
+	transition: 1s
+
+.info-box__icon_technologiesBS:hover
+	color: #533b77
+	transition: 1s
+
+.info-box__icon_technologiesGrunt:hover
+	color: #fba919
+	transition: 1s
+
+.info-box__icon_technologiesGit:hover
+	color: #f05033
+	transition: 1s
+
+.portfolio__container
+	background-color: #5276cf
+	color: white
+	padding: 30px
+
+.portfolio__container_header
+	font-weight: 700
+	margin-top: 50px
+
+.portfolio__container_paragraph
+	font-size: 20px
+
+.portfolio__box_project
+	display: flex
+	display: -webkit-flex
+	justify-content: center
+	align-items: center
+
+.info-box__containerDescription
+	min-height: 600px
+	position: relative
+
+.info-box__descriptionContainer
+	position: absolute
+	top: 50%
+	left: 50%
+	transform: translate(0, -50%)
+	margin: 0 auto
+
+.form-style-8
+	font-family: 'Open Sans Condensed', arial, sans
+	padding: 30px
+	background: #FFFFFF
+	margin: 50px auto
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22)
+	-moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22)
+	-webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.22)
+
+
+.form-style-8 h2
+	background: #4D4D4D
+	text-transform: uppercase
+	font-family: 'Open Sans Condensed', sans-serif
+	color: #797979
+	font-size: 18px
+	font-weight: 100
+	padding: 20px
+	margin: -30px -30px 30px -30px
+
+.form-style-8 input[type="text"],
+.form-style-8 input[type="date"],
+.form-style-8 input[type="datetime"],
+.form-style-8 input[type="email"],
+.form-style-8 input[type="number"],
+.form-style-8 input[type="search"],
+.form-style-8 input[type="time"],
+.form-style-8 input[type="url"],
+.form-style-8 input[type="password"],
+.form-style-8 textarea,
+.form-style-8 select 
+
+	box-sizing: border-box
+	-webkit-box-sizing: border-box
+	-moz-box-sizing: border-box
+	outline: none
+	display: block
+	width: 100%
+	padding: 7px
+	border: none
+	border-bottom: 1px solid #ddd
+	background: transparent
+	margin-bottom: 10px
+	font: 16px Arial, Helvetica, sans-serif
+	height: 45px
+
+.form-style-8 textarea
+	resize: none
+	overflow: hidden
+
+.form-style-8 input[type="button"], 
+.form-style-8 input[type="submit"]
+	-moz-box-shadow: inset 0px 1px 0px 0px #45D6D6
+	-webkit-box-shadow: inset 0px 1px 0px 0px #45D6D6
+	box-shadow: inset 0px 1px 0px 0px #45D6D6
+	background-color: #2CBBBB
+	border: 1px solid #27A0A0
+	display: inline-block
+	cursor: pointer
+	color: #FFFFFF
+	font-family: 'Open Sans Condensed', sans-serif
+	font-size: 14px
+	padding: 8px 18px
+	text-decoration: none
+	text-transform: uppercase
+
+.form-style-8 input[type="button"]:hover, 
+.form-style-8 input[type="submit"]:hover 
+	background-color: #34CACA
+
+.contact-container
+	background-color: #41bec5
+	padding-left: 100px
+	padding-top: 30px
+	text-align: center
+
+[class*="portfolio__gallery_img"]
+	background-color: black
+	border: 1px solid white
+
+.portfolio__gallery_img-sm
+	height: 300px
+
+.portfolio__gallery_img-lg
+	height: 500px
+
+.portfolio__gallery_img-md
+	height: 400px
+
+.portfolio__galery_container
+	padding: 100px
+
+.info-box__containerDescription
+	display: inline-block
+	padding: 0
+	width: 200px
+	height: 200px
+	img
+		width: 100%
+		height: 100%
+
+.main
+	display: inline-block
+	padding: 0
+	img
+		width: 100%
+		height: 100%
+
+.snake
+	position: relative
+	overflow: hidden
+	
+.overlay
+	position: absolute
+	opacity: 0.9
+	display: flex
+	justify-content: center
+	text-align: center
+	background-color: #222
+	color: #fff
+	
+.overlay-content 
+	display: flex
+	justify-content: center
+	align-items: center
+	flex-direction: column
+	font-size: 15px
+	
+.overlay-content__header, .overlay-content__paragraph 
+	color: white
+	
+.overlay .title
+	font-size: 15px
+	font-weight: bold
+	display: block
+	width: 100%
+	
+.contact-container__header
+	text-align: center
+	margin-top: 0
+	font-weight: 700
+	color: white
+
+.contact-container__photo
+	width: 200px
+	height: 200px
+	border-radius: 50%
